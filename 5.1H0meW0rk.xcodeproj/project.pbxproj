@@ -13,9 +13,9 @@
 		4B24C1EC2946411E00A6A06C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B24C1EA2946411E00A6A06C /* Main.storyboard */; };
 		4B24C1EE2946411F00A6A06C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B24C1ED2946411F00A6A06C /* Assets.xcassets */; };
 		4B24C1F12946411F00A6A06C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B24C1EF2946411F00A6A06C /* LaunchScreen.storyboard */; };
-		4B24C1FC2946411F00A6A06C /* __1H0meW0rkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24C1FB2946411F00A6A06C /* __1H0meW0rkTests.swift */; };
-		4B24C2062946411F00A6A06C /* __1H0meW0rkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24C2052946411F00A6A06C /* __1H0meW0rkUITests.swift */; };
-		4B24C2082946411F00A6A06C /* __1H0meW0rkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24C2072946411F00A6A06C /* __1H0meW0rkUITestsLaunchTests.swift */; };
+		4B24C215294642C400A6A06C /* ZakazTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24C214294642C400A6A06C /* ZakazTableViewCell.swift */; };
+		4B24C219294644FB00A6A06C /* 2828842.webp in Resources */ = {isa = PBXBuildFile; fileRef = 4B24C218294644FA00A6A06C /* 2828842.webp */; };
+		4B24C21B294645C600A6A06C /* ZakazModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24C21A294645C600A6A06C /* ZakazModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +45,10 @@
 		4B24C1F02946411F00A6A06C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B24C1F22946411F00A6A06C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B24C1F72946411F00A6A06C /* 5.1H0meW0rkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 5.1H0meW0rkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B24C1FB2946411F00A6A06C /* __1H0meW0rkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __1H0meW0rkTests.swift; sourceTree = "<group>"; };
 		4B24C2012946411F00A6A06C /* 5.1H0meW0rkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 5.1H0meW0rkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B24C2052946411F00A6A06C /* __1H0meW0rkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __1H0meW0rkUITests.swift; sourceTree = "<group>"; };
-		4B24C2072946411F00A6A06C /* __1H0meW0rkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __1H0meW0rkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4B24C214294642C400A6A06C /* ZakazTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZakazTableViewCell.swift; sourceTree = "<group>"; };
+		4B24C218294644FA00A6A06C /* 2828842.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = 2828842.webp; path = ../../../../Downloads/2828842.webp; sourceTree = "<group>"; };
+		4B24C21A294645C600A6A06C /* ZakazModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZakazModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +79,8 @@
 		4B24C1D82946411E00A6A06C = {
 			isa = PBXGroup;
 			children = (
+				4B24C218294644FA00A6A06C /* 2828842.webp */,
 				4B24C1E32946411E00A6A06C /* 5.1H0meW0rk */,
-				4B24C1FA2946411F00A6A06C /* 5.1H0meW0rkTests */,
-				4B24C2042946411F00A6A06C /* 5.1H0meW0rkUITests */,
 				4B24C1E22946411E00A6A06C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,30 +100,15 @@
 			children = (
 				4B24C1E42946411E00A6A06C /* AppDelegate.swift */,
 				4B24C1E62946411E00A6A06C /* SceneDelegate.swift */,
+				4B24C214294642C400A6A06C /* ZakazTableViewCell.swift */,
 				4B24C1E82946411E00A6A06C /* ViewController.swift */,
+				4B24C21A294645C600A6A06C /* ZakazModel.swift */,
 				4B24C1EA2946411E00A6A06C /* Main.storyboard */,
 				4B24C1ED2946411F00A6A06C /* Assets.xcassets */,
 				4B24C1EF2946411F00A6A06C /* LaunchScreen.storyboard */,
 				4B24C1F22946411F00A6A06C /* Info.plist */,
 			);
 			path = 5.1H0meW0rk;
-			sourceTree = "<group>";
-		};
-		4B24C1FA2946411F00A6A06C /* 5.1H0meW0rkTests */ = {
-			isa = PBXGroup;
-			children = (
-				4B24C1FB2946411F00A6A06C /* __1H0meW0rkTests.swift */,
-			);
-			path = 5.1H0meW0rkTests;
-			sourceTree = "<group>";
-		};
-		4B24C2042946411F00A6A06C /* 5.1H0meW0rkUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4B24C2052946411F00A6A06C /* __1H0meW0rkUITests.swift */,
-				4B24C2072946411F00A6A06C /* __1H0meW0rkUITestsLaunchTests.swift */,
-			);
-			path = 5.1H0meW0rkUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +218,7 @@
 				4B24C1F12946411F00A6A06C /* LaunchScreen.storyboard in Resources */,
 				4B24C1EE2946411F00A6A06C /* Assets.xcassets in Resources */,
 				4B24C1EC2946411E00A6A06C /* Main.storyboard in Resources */,
+				4B24C219294644FB00A6A06C /* 2828842.webp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +246,8 @@
 				4B24C1E92946411E00A6A06C /* ViewController.swift in Sources */,
 				4B24C1E52946411E00A6A06C /* AppDelegate.swift in Sources */,
 				4B24C1E72946411E00A6A06C /* SceneDelegate.swift in Sources */,
+				4B24C215294642C400A6A06C /* ZakazTableViewCell.swift in Sources */,
+				4B24C21B294645C600A6A06C /* ZakazModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +255,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B24C1FC2946411F00A6A06C /* __1H0meW0rkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B24C2082946411F00A6A06C /* __1H0meW0rkUITestsLaunchTests.swift in Sources */,
-				4B24C2062946411F00A6A06C /* __1H0meW0rkUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
